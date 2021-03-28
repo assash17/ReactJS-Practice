@@ -36,3 +36,38 @@
     transform: rotate(360deg);
   }
 }
+
+header {
+  text-align: center;
+  background-color: aquamarine;
+}
+footer {
+  text-align: center;
+  background-color: aquamarine;
+}
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+nav a:not(:last-child) {
+  margin-right: 10px;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.selectedMenu {
+  background-color: red;
+  color: white;
+  font-weight: bold;
+}

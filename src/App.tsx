@@ -32,12 +32,12 @@ function App() {
         <NavLink to="/CustomVideoPlayer" activeClassName="selectedMenu">
           CustomVideoPlayer
         </NavLink>
-        {/* <NavLink to="/Todo" activeClassName="selectedMenu">
+        <NavLink to="/Todo" activeClassName="selectedMenu">
           Todo
         </NavLink>
         <NavLink to="/Axios" activeClassName="selectedMenu">
           Axios
-        </NavLink> */}
+        </NavLink>
         {/* <NavLink to="/ExchangeRage" activeClassName="selectedMenu">
           ExchangeRage
         </NavLink> */}
@@ -48,8 +48,8 @@ function App() {
             path="/CustomVideoPlayer"
             component={CustomVideoPlayer}
           ></Route>
-          {/* <Route path="/Todo" component={Todo}></Route>
-          <Route path="/Axios" component={Test}></Route> */}
+          <Route path="/Todo" component={Todo}></Route>
+          <Route path="/Axios" component={Test}></Route>
           {/* <Route path="/ExchangeRage" component={ExchangeRate}></Route> */}
           <Route
             path=""
