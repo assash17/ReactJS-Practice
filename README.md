@@ -1,5 +1,5 @@
-# VanillaJS-Practice
-This is VanillaJS practice project.
+# ReactJS-Practice
+This is ReactJS practice project.
 
 https://jeong-seonghoon.github.io/ReactJS-Practice/
 
