@@ -1,29 +1,13 @@
 import React from "react";
-import logo from "./logo.svg";
 import "./App.css";
 import { Switch, Route, NavLink } from "react-router-dom";
 import CustomVideoPlayer from "./menu/custom-video-player/components/CustomVideoPlayer";
 import Todo from "./menu/Todo/components/Todo";
 import Test from "./menu/axios/Test";
+import CalculatorContainer from "./menu/calculator/container/CalculatorContainer";
 
 function App() {
   return (
-    // <div className="App">
-    //   <header className="App-header">
-    //     <img src={logo} className="App-logo" alt="logo" />
-    //     <p>
-    //       Edit <code>src/App.tsx</code> and save to reload.
-    //     </p>
-    //     <a
-    //       className="App-link"
-    //       href="https://reactjs.org"
-    //       target="_blank"
-    //       rel="noopener noreferrer"
-    //     >
-    //       Learn React
-    //     </a>
-    //   </header>
-    // </div>
     <>
       <header>
         <h1>React Practice</h1>
@@ -38,9 +22,9 @@ function App() {
         <NavLink to="/Axios" activeClassName="selectedMenu">
           Axios
         </NavLink>
-        {/* <NavLink to="/ExchangeRage" activeClassName="selectedMenu">
-          ExchangeRage
-        </NavLink> */}
+        <NavLink to="/Calc" activeClassName="selectedMenu">
+          Calc
+        </NavLink>
       </nav>
       <main>
         <Switch>
@@ -50,7 +34,7 @@ function App() {
           ></Route>
           <Route path="/Todo" component={Todo}></Route>
           <Route path="/Axios" component={Test}></Route>
-          {/* <Route path="/ExchangeRage" component={ExchangeRate}></Route> */}
+          <Route path="/Calc" component={CalculatorContainer}></Route>
           <Route
             path=""
             component={() => {

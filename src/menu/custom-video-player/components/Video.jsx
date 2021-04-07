@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from "react";
+import React, { useEffect } from "react";
 import video from "../resource/video.mp4";
 
 function Video({ videoRef, volume }) {
