@@ -1,9 +1,7 @@
 # ReactJS-Practice
 This is ReactJS practice project.
 
-[https://jeong-seonghoon.github.io/ReactJS-Practice/](https://assash17.github.io/ReactJS-Practice/)
-
-
+https://assash17.github.io/ReactJS-Practice/
 
 # Getting Started with Create React App
 
